@@ -32,4 +32,104 @@
     font-size: 14px; /* Ensure the text size matches your design */
     color: #757575; /* Text color */
   }
-  
+
+
+/* =========================================================
+   LOGIN / REGISTRATION BACKGROUND IMAGES
+   ========================================================= */
+
+body.school-bg-page,
+body.supplier-bg-page,
+body.parent-bg-page,
+body.admin-bg-page {
+    margin: 0;
+    min-height: 100vh;
+}
+
+
+/* ================================
+   SCHOOL REGISTRATION BACKGROUND
+   ================================ */
+
+body.school-bg-page {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.25),
+            rgba(0, 0, 0, 0.25)
+        ),
+        url('/images/school-loginbg.jpg') !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+
+    min-height: 100vh !important;
+    margin: 0 !important;
+}
+
+
+/* ================================
+   SUPPLIER REGISTRATION BACKGROUND
+   ================================ */
+
+body.supplier-bg-page {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.25),
+            rgba(0, 0, 0, 0.25)
+        ),
+        url('/images/supplier-loginbg.jpg') !important;
+
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+
+    min-height: 100vh !important;
+    margin: 0 !important;
+}
+
+/* ---------- PARENT ---------- */
+
+body.parent-bg-page {
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url('/images/parent-loginbg.jpg');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* ---------- ADMIN ---------- */
+
+body.admin-bg-page {
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url('/images/admin-loginbg.PNG');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+    body.school-bg-page,
+    body.supplier-bg-page,
+    body.parent-bg-page,
+    body.admin-bg-page {
+        background-attachment: scroll;
+    }
+}

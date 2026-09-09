@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Supplier Registration</title>
     <link rel="stylesheet" data-th-href="@{'/css/output.css'}"/>
+    <link rel="stylesheet" data-th-href="@{'/css/style.css'}"/>
 
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
 </head>
-<body  >
+<body class="supplier-bg-page">
 
     <div data-th-replace="~{navbar :: navbar}" ></div>
 
@@ -26,8 +27,8 @@
                     alt="logo" 
                     class='w-42 h-40 inline-block' />
                   </a> -->
-                  <h2 class="text-gray-800 text-3xl font-extrabold">Supplier Registration Form</h2>
-                  <h4 class="text-gray-800 text-base font-semibold mt-6">Sign up  your Supplier with MDMS Application</h4>
+                    <h2 class="text-white text-3xl font-extrabold">Supplier Registration Form</h2>
+                    <h4 class="text-white text-base font-semibold mt-6">Sign up  your Supplier with MDMS Application</h4>
                 </div>
                 
 
@@ -46,7 +47,7 @@
                   <div class="grid sm:grid-cols-2 gap-4">
 
                     <div>
-                      <label class="text-gray-800 text-sm mb-2 block">Supplier Name</label>
+                        <label class="text-white text-sm mb-2 block">Supplier Name</label>
                       <input 
                         name="supplierName" 
                         type="text" 
@@ -62,7 +63,7 @@
                     </p>
 
                     <div>
-                      <label class="text-gray-800 text-sm mb-2 block">Supplier Address</label>
+                        <label class="text-white text-sm mb-2 block">Supplier Address</label>
                       <input 
                         name="supplierAddress" 
                         type="text" 
@@ -78,7 +79,7 @@
                     </p>
 
                     <div>
-                      <label class="text-gray-800 text-sm mb-2 block">Email Id</label>
+                        <label class="text-white text-sm mb-2 block">Email Id</label>
                       <input 
                         name="supplierEmail" 
                         type="text" 
@@ -94,7 +95,7 @@
                     </p>
 
                     <div>
-                      <label class="text-gray-800 text-sm mb-2 block">Contact Number.</label>
+                        <label class="text-white text-sm mb-2 block">Contact Number.</label>
                       <input 
                         name="supplierContactNumber" 
                         type="tel" 
@@ -110,7 +111,7 @@
                     </p>
 
                     <div>
-                      <label class="text-gray-800 text-sm mb-2 block">Password</label>
+                        <label class="text-white text-sm mb-2 block">Password</label>
                       <input 
                       name="supplierPassword" 
                       type="password" 
@@ -126,7 +127,7 @@
                     </p>
 
                     <div>
-                      <label class="text-gray-800 text-sm mb-2 block">FSSAIRegistration Number</label>
+                        <label class="text-white text-sm mb-2 block">FSSAIRegistration Number</label>
                       <input 
                       name="FSSAIRegistrationNumber" 
                       type="text" 
